@@ -1,6 +1,6 @@
 {
   "name": "x-labs.marketplace",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "A bare bones example of a Vercel-deployable project with a Next.js frontend and a Sanity Studio on /studio",
   "devDependencies": {
