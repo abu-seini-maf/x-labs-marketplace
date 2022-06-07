@@ -1,16 +1,14 @@
 {
   "root": true,
   "project": {
-    "name": "Sanity Studio",
-    "basePath": "/studio"
+    "name": "x-labs-marketplace"
   },
   "api": {
-    "projectId": "PLACEHOLDER-SEE-README",
-    "dataset": "PLACEHOLDER-SEE-README"
+    "projectId": "5dwhkpa6",
+    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
-    "@sanity/components",
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool"

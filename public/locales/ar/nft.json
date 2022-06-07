@@ -1,0 +1,15 @@
+{
+    "itemActivity": "نشاط العنصر",
+    "filter": "فلتر",
+    "event": "حدث",
+    "price": "قيمة",
+    "from": "من",
+    "to": "إلى",
+    "date": "تاريخ",
+    "createdBy": "انشأ من قبل",
+    "purchaseSuccess": "تم الشراء بنجاح!",
+    "purchaseError": "الشراء غير ناجح!",
+    "buyNow": "اشتري الآن",
+    "makeOffer": "تقديم عرض",
+    "listItem": "عرض العنصر"
+}

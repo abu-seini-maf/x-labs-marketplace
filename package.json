@@ -1,14 +1,22 @@
 {
-  "name": "sanity-nextjs-vercel-example",
-  "version": "0.0.0",
+  "name": "x-labs.marketplace",
+  "version": "0.0.1",
   "private": true,
   "description": "A bare bones example of a Vercel-deployable project with a Next.js frontend and a Sanity Studio on /studio",
   "devDependencies": {
     "concurrently": "^5.3.0",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "@types/node": "17.0.4",
+    "@types/react": "17.0.38",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.1",
+    "tailwindcss": "^3.0.7",
+    "typescript": "4.5.4"
   },
   "scripts": {
-    "dev": "concurrently \"next --port $PORT\" \"cd studio && sanity start\"",
+    "dev": "concurrently \"next dev\" \"cd studio && sanity start\"",
     "build": "echo 'Building Sanity to public/studio' && cd studio && sanity build ../public/studio -y && cd .. && next build",
     "start": "vercel dev",
     "postinstall": "lerna bootstrap"
@@ -18,8 +26,23 @@
   "license": "MIT",
   "dependencies": {
     "@sanity/cli": "^2.0.5",
-    "next": "^9.5.5",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "@3rdweb/hooks": "^1.9.2",
+    "@3rdweb/sdk": "^1.42.1",
+    "@ethersproject/json-wallets": "^5.6.1",
+    "@headlessui/react": "^1.6.4",
+    "@sanity/client": "^3.3.0",
+    "@thirdweb-dev/react": "^2.3.12",
+    "@thirdweb-dev/sdk": "^2.3.1",
+    "ethers": "^5.6.8",
+    "next": "latest",
+    "next-i18next": "^11.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "tailwindcss-rtl": "^0.9.0"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.38"
   }
 }

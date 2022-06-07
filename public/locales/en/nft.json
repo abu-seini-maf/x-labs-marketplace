@@ -1,0 +1,15 @@
+{
+    "itemActivity": "Item Activity",
+    "filter": "Filter",
+    "event": "Event",
+    "price": "Price",
+    "from": "From",
+    "to": "To",
+    "date": "Date",
+    "createdBy": "created by",
+    "purchaseSuccess": "Purchase successful!",
+    "purchaseError": "Purchase Unsuccessful!",
+    "buyNow": "Buy Now",
+    "makeOffer": "Make Offer",
+    "listItem": "List Item"
+}
